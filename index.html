@@ -79,9 +79,15 @@
     }); 
     // add appid
     var appid = “&APPID=b87becc2f0c07b42a8cc3b70b74d3d22”
+    
+	// added different comment code
+	// var oModel = new sap.ui.model.json.JSONModel();
+	// oModel.loadData(“/openweathermap”,{“q”:”Singapore”,”APPID”:”b87becc2f0c07b42a8cc3b70b74d3d22“});
+	// this.getView().setModel(oModel);
+    
     // page1 should be displayed first
     // Create a tile for the current weather in Lisbon (changed to Minneapolis)
-    var oModelWeatherCity1 = getModelFromURL("/openweathermap?q=:Minneapolis,US" + appid);
+    var oModelWeatherCity1 = getModelFromURL("http://api.openweathermap.org/data/2.5/weather?q=Minneapolis,US&APPID=b87becc2f0c07b42a8cc3b70b74d3d22");
     var weatherTileCity1 = buildWeatherTile("myWeatherTileCity1", oModelWeatherCity1);
  
     // Create another tile for the current weather in another city (like London)
