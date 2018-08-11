@@ -15,4 +15,4 @@ SCP djmweather app moved to GitHub
 *    // Create another tile for the current weather in another city
 *    var oModelWeatherOther = getModelFromURL(“/openweathermap?q=Neustadt an der Weinstrasse” + appid);
 * finally coordinated with source code here: https://tempdemo1-p1941855306trial.dispatcher.hanatrial.ondemand.com/?hc_reset
-* Version
+* push to git, deploy to SCP
