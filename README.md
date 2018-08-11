@@ -14,3 +14,5 @@ SCP djmweather app moved to GitHub
 *    var weatherTileCity1 = buildWeatherTile(“myWeatherTileCity1”, oModelWeatherCity1);
 *    // Create another tile for the current weather in another city
 *    var oModelWeatherOther = getModelFromURL(“/openweathermap?q=Neustadt an der Weinstrasse” + appid);
+* finally coordinated with source code here: https://tempdemo1-p1941855306trial.dispatcher.hanatrial.ondemand.com/?hc_reset
+* Version
