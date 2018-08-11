@@ -77,20 +77,20 @@
     var app = new sap.m.App("myApp", {
         initialPage : idPageMain
     }); // page1 should be displayed first
-    // Create a tile for the current weather in Lisbon
-    var oModelWeatherCity1 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=mumbai");
+    // Create a tile for the current weather in Lisbon (changed to Mpls)
+    var oModelWeatherCity1 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=Minneapolis,MN,US");
     var weatherTileCity1 = buildWeatherTile("oModelWeatherCity1", oModelWeatherCity1);
  
-    // Create another tile for the current weather in another city
-    var oModelWeatherCity2 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=Bangalore");
+    // Create another tile for the current weather in Hanoi, Vietnam
+    var oModelWeatherCity2 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=Hanoi,VN");
     var weatherTileCity2 = buildWeatherTile("oModelWeatherCity2", oModelWeatherCity2);
     
-    // Create another tile for the current weather in another city like Mumbai
-    var oModelWeatherCity3 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=Minneapolis,MN,US");
+    // Create another tile for the current weather in London, UK
+    var oModelWeatherCity3 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=London,UK");
     var weatherTileCity3 = buildWeatherTile("oModelWeatherCity3", oModelWeatherCity3);
     
-    // Create another tile for the current weather in another city: Hanoi
-    var oModelWeatherCity4 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=Hanoi,VN");
+    // Create another tile for the current weather in Mumbai, India
+    var oModelWeatherCity4 = getModelFromURL("/openweathermap?APPID=b87becc2f0c07b42a8cc3b70b74d3d22&q=Mumbai");
     var weatherTileCity4 = buildWeatherTile("oModelWeatherCity4", oModelWeatherCity4);
     
     // Now create the page and place it into the HTML document
